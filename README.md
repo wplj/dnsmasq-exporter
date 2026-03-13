@@ -1,6 +1,8 @@
 # dnsmasq-exporter
 
-Maintained container packaging for `google/dnsmasq_exporter` with deterministic, digest-pinned ARM64 builds.
+Maintained ARM64 container packaging for `google/dnsmasq_exporter`, built with vendored source, vendored Go modules, and digest-pinned base images.
+
+This repository provides a Docker/OCI image for `google/dnsmasq_exporter` (`dnsmasq-exporter`) on `linux/arm64`.
 
 ## Upstream
 
